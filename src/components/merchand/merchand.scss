@@ -1,0 +1,58 @@
+.container-merchand {
+  .main-header {
+    background: #fff;
+    box-shadow: 0px 8px 8px -4px rgba(8, 48, 71, 0.04), 0px 20px 24px -4px rgba(8, 48, 71, 0.08);
+    .row-header {
+      padding: 2rem;
+      display: flex;
+      .logo-client {
+        flex: auto;
+        img {
+          transform: scale(1.5);
+          transform-origin: right -0.5rem;
+        }
+      }
+      .logo-satrap {
+        flex: auto;
+        text-align: left;
+        .holder-icon {
+          i {
+            font-size: 4rem;
+            color: #00d6da;
+          }
+        }
+      }
+    }
+  }
+  .main-body {
+    padding: 2rem 1rem;
+    .holder-show-list-merchand {
+      .show-list {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .item {
+          flex-basis: 45%;
+          border-radius: 0.3255rem;
+          border: solid 0.948px #ececec;
+          background: #fff;
+          padding: 1rem;
+          cursor: pointer;
+          .hold-img {
+            img {
+              width: 100%;
+              border-radius: 1.36rem;
+            }
+          }
+          .hold-desc {
+            h2 {
+              font-size: 1.9rem;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

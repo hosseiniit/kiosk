@@ -1,0 +1,549 @@
+@charset "utf-8";
+/*
+============================== Font Face =============================
+*/
+/*#region IranSans*/
+
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/iransans/woff/IRANSansX-Thin.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/iransans/woff/IRANSansX-UltraLight.woff") format("woff"),
+    url("../fonts/iransans/woff2/IRANSansX-UltraLight.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/iransans/woff/IRANSansX-Light.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/iransans/woff/IRANSansX-Medium.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/iransans/woff/IRANSansX-DemiBold.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-DemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/iransans/woff/IRANSansX-ExtraBold.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/iransans/woff/IRANSansX-Black.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/iransans/woff/IRANSansX-Bold.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: IRANSansX;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/iransans/woff/IRANSansX-Regular.woff") format("woff"), url("../fonts/iransans/woff2/IRANSansX-Regular.woff2") format("woff2");
+  font-display: fallback;
+}
+
+/*#endregion IranSans*/
+/*#region Roboto */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-BlackItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-BlackItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-BlackItalic.svg#Roboto-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-BoldItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-BoldItalic.svg#Roboto-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-CondensedItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-CondensedItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-CondensedItalic.svg#Roboto-CondensedItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Condensed.woff2") format("woff2"), url("../fonts/roboto/Roboto-Condensed.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Condensed.svg#Roboto-Condensed") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-BoldCondensed.woff2") format("woff2"), url("../fonts/roboto/Roboto-BoldCondensed.woff") format("woff"),
+    url("../fonts/roboto/Roboto-BoldCondensed.svg#Roboto-BoldCondensed") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Italic.woff2") format("woff2"), url("../fonts/roboto/Roboto-Italic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Italic.svg#Roboto-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Black.woff2") format("woff2"), url("../fonts/roboto/Roboto-Black.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-BoldCondensedItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-BoldCondensedItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-BoldCondensedItalic.svg#Roboto-BoldCondensedItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Thin.svg#Roboto-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-MediumItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-MediumItalic.svg#Roboto-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-LightItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-LightItalic.svg#Roboto-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Light.svg#Roboto-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff"),
+    url("../fonts/roboto/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-ThinItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-ThinItalic.woff") format("woff"),
+    url("../fonts/roboto/Roboto-ThinItalic.svg#Roboto-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+/*#endregion Roboto */
+
+/*#region Icomoon */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/fonts/icomoon.eot?jfty0f");
+  src: url("../fonts/icomoon/fonts/icomoon.eot?jfty0f#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon/fonts/icomoon.ttf?jfty0f") format("truetype"), url("../fonts/icomoon/fonts/icomoon.woff?jfty0f") format("woff"),
+    url("../fonts/icomoon/fonts/icomoon.svg?jfty0f#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-dinein1:before {
+  content: "\e91e";
+}
+.icon-takeaway:before {
+  content: "\e91f";
+}
+.icon-arrow-circle-right:before {
+  content: "\e91c";
+}
+.icon-arrow-circle-left:before {
+  content: "\e91d";
+}
+.icon-collapse-up:before {
+  content: "\e918";
+}
+.icon-collapse-down:before {
+  content: "\e919";
+}
+.icon-fork:before {
+  content: "\e917";
+}
+.icon-take-away:before {
+  content: "\e915";
+}
+.icon-stay:before {
+  content: "\e916";
+}
+
+.icon-reload:before {
+  content: "\e914";
+}
+.icon-logo-satrap:before {
+  content: "\e913";
+}
+.icon-credit-card:before {
+  content: "\e900";
+}
+.icon-lisit:before {
+  content: "\e901";
+}
+.icon-clock:before {
+  content: "\e902";
+}
+.icon-global:before {
+  content: "\e903";
+}
+.icon-phone-call:before {
+  content: "\e904";
+}
+.icon-phone:before {
+  content: "\e905";
+}
+.icon-magnifier:before {
+  content: "\e906";
+}
+.icon-tick:before {
+  content: "\e907";
+}
+.icon-plus:before {
+  content: "\e908";
+}
+.icon-basket:before {
+  content: "\e909";
+}
+.icon-minus:before {
+  content: "\e90a";
+}
+.icon-close:before {
+  content: "\e90b";
+}
+.icon-trash:before {
+  content: "\e90c";
+}
+.icon-arrow-right:before {
+  content: "\e90d";
+}
+.icon-ticket:before {
+  content: "\e90e";
+}
+.icon-check-tick:before {
+  content: "\e90f";
+}
+.icon-close-paper:before {
+  content: "\e910";
+}
+.icon-bell:before {
+  content: "\e911";
+}
+.icon-satrap:before {
+  content: "\e912";
+}
+
+/*#endregion icoMoon*/
+/*
+============================== Font Face =============================
+*/
+:root {
+  --layout-breakpoint-Laptop-L: 1440px;
+  --layout-breakpoint-Laptop: 1024px;
+  --layout-breakpoint-Tablet: 768px;
+  --layout-breakpoint-Mobile-L: 425px;
+  --layout-breakpoint-Mobile-M: 375px;
+  --layout-breakpoint-Mobile-S: 320px;
+  --min-color: #13727d;
+  --background-color: #f9fafb;
+  --complementary-color: #ffffff;
+}
+$layout-breakpoint-Laptop-L: 1440px;
+$layout-breakpoint-Laptop: 1024px;
+$layout-breakpoint-Tablet: 768px;
+$layout-breakpoint-Mobile-L: 425px;
+$layout-breakpoint-Mobile-M: 375px;
+$layout-breakpoint-Mobile-S: 320px;
+
+@mixin Persian {
+  font-family: "IRANSansX";
+  text-align: right;
+  direction: rtl;
+}
+@mixin PersianCharactersDigits {
+  -moz-font-feature-settings: "ss03" !important;
+  -webkit-font-feature-settings: "ss03" !important;
+  font-feature-settings: "ss03" !important;
+}
+@mixin English {
+  font-family: "Roboto";
+  text-align: left;
+  direction: ltr;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+html[lang="fa"] body {
+  @include Persian;
+  @include PersianCharactersDigits;
+}
+html[lang="en"] body {
+  @include English;
+}
+.btn-normal {
+  height: 6rem;
+  line-height: 6rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 1.9rem;
+  background-color: var(--min-color);
+  color: var(--complementary-color);
+}
+.input-normal {
+  .ant-form-item-control-input {
+    input {
+      height: 6rem;
+      font-size: 1.9rem;
+
+      &::placeholder {
+        color: rgb(16, 24, 40, 0.7);
+      }
+    }
+  }
+  .ant-form-item-explain-error {
+    font-size: 1.5rem;
+    padding: 0.2rem 0 0rem;
+  }
+  .ant-input-suffix {
+    font-size: 2rem;
+    .ant-form-item-feedback-icon {
+      font-size: 2rem;
+    }
+    .ant-input-clear-icon {
+      font-size: 1.9rem;
+    }
+  }
+  .ant-input-prefix {
+    font-size: 2rem;
+    color: #667085;
+  }
+  .ant-form-item-label {
+    label {
+      font-size: 1.7rem;
+    }
+  }
+  .ant-form-item-control-input-content {
+    textarea {
+      font-size: 2rem;
+    }
+  }
+  margin-bottom: 4rem;
+}
+.App {
+  height: 100%;
+  background-color: var(--background-color);
+}
+.App[data-rtl="true"] {
+  .input-normal {
+    .ant-form-item-control-input,
+    .ant-form-item-control-input {
+      input {
+        @include PersianCharactersDigits;
+        &[dir="ltr"] {
+          text-align: left;
+          direction: ltr;
+        }
+        &[dir="ltr"]::placeholder {
+          text-align: right;
+          direction: rtl;
+        }
+      }
+    }
+  }
+  .btn-normal {
+    @include PersianCharactersDigits;
+  }
+}
+.input-normal {
+  .ant-form-item-control-input,
+  .ant-form-item-control-input {
+    input {
+      @include PersianCharactersDigits;
+      &[dir="ltr"] {
+        text-align: left;
+        direction: ltr;
+      }
+      &[dir="ltr"]::placeholder {
+        text-align: right !important;
+        direction: rtl !important;
+      }
+    }
+  }
+}
+.btn-normal {
+  @include PersianCharactersDigits;
+}
+.container-main {
+  width: calc(100vw - 50%);
+  margin: auto;
+  height: 100%;
+}
+
+.ant-message {
+  .ant-message-notice {
+    .ant-message-notice-content {
+      padding: 1rem;
+      .ant-message-custom-content {
+        span {
+          font-size: 1.9rem;
+        }
+        span.anticon {
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $layout-breakpoint-Laptop-L) {
+  .container-main {
+    width: calc(100vw - 50%);
+  }
+}
+@media screen and (min-width: $layout-breakpoint-Tablet) {
+  .container-main {
+    width: calc(100vw - 40%);
+  }
+}
+@media screen and (min-width: $layout-breakpoint-Mobile-L) {
+  .container-main {
+    width: calc(100vw - 10%);
+  }
+}
+@media screen and (min-width: $layout-breakpoint-Mobile-S) {
+  .container-main {
+    width: calc(100vw - 10%);
+  }
+}
+.inputmask {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: IRANSansX;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d0d5dd;
+  border-radius: 0.2rem;
+  transition: all 0.2s;
+  direction: ltr;
+  &:focus {
+    border-color: #4096ff;
+    box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+    border-inline-end-width: 1px;
+    outline: 0;
+  }
+}

@@ -1,0 +1,43 @@
+.login-with-otp {
+  .row-form-item {
+    display: flex;
+    gap: 2rem;
+    .item-control {
+      flex-basis: 50%;
+    }
+    .holder-spin {
+      flex-basis: 30%;
+      text-align: center;
+      margin: auto;
+    }
+    .holder-captcha {
+      flex-basis: 30%;
+      img {
+        width: 100%;
+        border-radius: 0.5rem;
+        border: 1.5px solid #d0d5dd;
+        height: 6.5rem;
+      }
+    }
+    .holder-reload {
+      flex: auto;
+      .reload-captcha {
+        border-radius: 0.5rem;
+        border: 1.5px solid #d0d5dd;
+        height: 6.5rem;
+        width: 6.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--min-color);
+        i {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+  .btn-normal {
+    width: calc(100% - 20%) !important;
+  }
+}

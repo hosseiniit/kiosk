@@ -1,0 +1,59 @@
+.holder-otp-login {
+  h3 {
+    font-size: 1.9rem;
+    color: #101828;
+    span {
+      color: var(--min-color);
+      font-weight: 700;
+    }
+  }
+  .holder-form {
+    .row-otp-code {
+      display: flex;
+      gap: 1rem;
+      .holder-input {
+        flex: auto;
+      }
+      .holder-timer {
+        text-align: center;
+
+        .hold-remain {
+          border-radius: 0.5rem;
+          border: 3px solid #d0d5dd;
+          display: flex;
+          flex-direction: row-reverse;
+          padding: 1.3rem 1rem;
+          gap: 0.5rem;
+          i {
+            color: var(--min-color);
+            font-size: 2.9rem;
+            display: block;
+          }
+          span {
+            color: #101828;
+            font-size: 1.9rem;
+            display: block;
+          }
+          .anticon {
+            color: var(--min-color);
+            font-size: 2.9rem;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .holder-back-msisdn {
+    margin: 3rem 0;
+    a {
+      display: block;
+      color: #101828;
+      text-align: center;
+      font-size: 1.8rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 1.875rem; /* 150% */
+      text-decoration: none;
+    }
+  }
+}

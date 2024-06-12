@@ -1,0 +1,23 @@
+:root {
+  --toastify-toast-width: "400px";
+}
+.custom-toast {
+  font-size: 1.7rem;
+}
+.Toastify__close-button {
+  > svg {
+    transform: scale(1.7);
+  }
+}
+.Toastify__toast-body {
+  padding: 1rem;
+}
+.Toastify__toast {
+  padding: 1rem;
+}
+.Toastify__toast-icon {
+  > svg {
+    transform: scale(1.7);
+    transform-origin: left;
+  }
+}

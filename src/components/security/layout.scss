@@ -1,0 +1,95 @@
+.login-layout {
+  height: 100%;
+  background: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  .header {
+    background: #fff;
+    box-shadow: 0px 8px 8px -4px rgba(8, 48, 71, 0.04), 0px 20px 24px -4px rgba(8, 48, 71, 0.08);
+    z-index: 1;
+    .brand-onwer {
+      padding: 1rem 0;
+      text-align: center;
+      i {
+        font-size: 5rem;
+        color: #00d6da;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .holder-box {
+      width: calc(100vw - 15%);
+      border-radius: 0.5rem;
+      background: #fff;
+      box-shadow: 0px 32px 64px -12px rgba(8, 48, 71, 0.14);
+      .box {
+        padding: 5rem;
+        position: relative;
+        .logo-item {
+          position: absolute;
+          top: -0.5rem;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          i {
+            font-size: 9.0625rem;
+            color: #13727d;
+          }
+        }
+        .holder-form {
+          margin: 2rem 0 1rem;
+          h3 {
+            color: #101828;
+            font-size: 1.875rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 2.5rem; /* 133.333% */
+          }
+          .checkRemember {
+            color: #101828;
+            font-size: 1.5rem;
+            .ant-checkbox-inner {
+              border-color: #d0d5dd;
+            }
+            input {
+              width: 2.25rem;
+              height: 2.25rem;
+            }
+            .ant-checkbox-inner {
+              width: 2.25rem;
+              height: 2.25rem;
+            }
+            input:checked + .ant-checkbox-inner {
+              background-color: transparent;
+              &::after {
+                border-color: var(--min-color);
+                width: 0.9rem;
+                height: 1.5rem;
+              }
+            }
+
+            .ant-checkbox {
+              &::after {
+                display: block;
+              }
+            }
+          }
+          .btn-normal {
+            width: calc(100% - 1rem);
+          }
+          .holder-bellow-link {
+            color: #101828;
+            font-size: 1.5rem;
+            text-align: center;
+            a {
+              margin-right: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
